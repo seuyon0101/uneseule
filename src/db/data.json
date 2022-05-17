@@ -1,0 +1,8 @@
+{
+    "teachers" : 
+    [
+        { "id" :1 , "name" : "이혜진", "imgSrc" :"../img/members/lake.png", "uName":"호수쌤","skill" : "스페인어 x 만들기" , "classNum":331,"regisClass":9},
+        { "id" :1 , "name" : "서하연", "imgSrc" :"../img/members/lake.png", "uName":"돌멩이쌤","skill" : "일러스트 x 글쓰기" , "classNum":121,"regisClass":7},
+        { "id" :1 , "name" : "이승용", "imgSrc" :"../img/members/lake.png", "uName":"모래쌤","skill" : "리서치 x 프로그래밍 " , "classNum":31,"regisClass":999}
+    ]
+}

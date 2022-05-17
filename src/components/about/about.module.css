@@ -1,0 +1,51 @@
+
+/* -------------------------- about page ---------------------------*/
+hr{
+    border-top : 0.25px solid #bbb;
+  
+  }
+  
+  .aboutSection{
+    padding: 50px 50px;
+  }
+  
+  .aboutSectionFirst{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .engText{
+    color:#363636;
+    opacity:0.56;
+  }
+  
+  .textWrap{
+      width: 75%;
+  }
+
+  .wrappingContainer{
+    display :flex;
+    flex-wrap : row wrap;
+    justify-content: space-between;
+  
+  }
+  
+  
+  .boxContainer{
+    width:50%;
+  }
+
+  .boxFigure img{
+    height: auto;
+    width: 50%;
+  }
+
+  .boxFigure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width :50%;
+  }  

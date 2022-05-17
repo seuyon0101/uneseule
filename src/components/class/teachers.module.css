@@ -1,0 +1,21 @@
+.wrapper{
+    display:flex;
+    text-decoration: none;
+    flex-flow : row;
+    justify-content: center;
+}
+
+.innerwrapper{
+    border : 1px solid #bbb;
+    text-decoration: none;
+}
+
+
+.memberImg{
+    border-radius: 50%;
+    width :150px;
+    height: 150px;
+    background-color: red;
+    background-size : cover;
+}
+

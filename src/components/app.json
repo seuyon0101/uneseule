@@ -1,7 +1,0 @@
-{
-    "navmenu" :[
-        {"menu" : "about", "url" :"/about", "submenu" : ["a","b"]},
-        {"menu" : "class", "url" :"/class", "submenu" :["#","#"]},
-        {"menu" : "contact", "url" :"/contact", "submenu" :["1","2","3"]}
-    ]
-}

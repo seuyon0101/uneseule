@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    column-gap: 1em;
+    border : 1px solid #bbb;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContainer img{
+    width: 250px;
+    padding : 15px;
+}
+
+.rightContainer{
+    width: 70%;
+    display: flex;
+}
+
+.miniWrapper{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1em;
+}
+
+.aBox{
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+.register{
+    background-color: #3867BC;
+}
+
+.more{
+    background-color: #FFC550;
+}

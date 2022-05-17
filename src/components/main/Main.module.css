@@ -1,0 +1,198 @@
+
+/* ---------------------------main general ---------------------------*/
+
+.mainSection h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.mainSection h2{
+  font-size: 26px;
+  text-align: center;
+}
+
+/* ---------------------------main section ---------------------------*/
+
+.mainBannerImg {
+  
+  width :100vw;
+}
+
+.mainFirst h1{
+  font-size: 36px;
+  height: 25px;
+  color:#3867BC;
+}
+
+.mainFirst h2{
+  height:0px;
+  color:#3867BC;
+
+}
+
+.mainFirst{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainButton{
+ background-color: #FF5D63; 
+ width: 150px;
+ height: 50px;
+ color:white;
+ font-size : 30px;
+ border-radius: 25px;
+ border : white;
+ font-weight: bold;
+}
+
+/* -------------------------- main content : class index main section ---------------------------*/
+
+.indexSection{
+  color:#3867BC;
+  text-align: left;
+  padding-bottom : 150px ;
+  padding-top : 150px;
+}
+
+.indexSection h1{
+  text-align: center;
+}
+
+.miniContainer{
+  height:250px;
+  background-color: #3867BC;
+}
+
+.miniContainer img{
+  object-fit: fill;
+}
+
+.priceText{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.indexBtn{
+  background-color: #3867BC;
+  text-decoration: none;
+  color : white;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 25px;
+
+}
+
+.miniWrapper{
+  display:flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.miniBox{
+text-align: center;
+color : #363636;
+}
+
+.miniBox span{
+  color:#645D42;
+  font-size: 18px;
+}
+
+/* -------------------------- main content : mini box section ---------------------------*/
+
+
+.wrapperMini{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+
+.miniSection {
+  height :300px;
+  display:flex;
+  flex-direction : column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini_imgbox{
+  width: 15%;
+  padding-bottom: 5%;
+}
+
+.mini_imgbox img{
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapperMini h1{
+  color : #3867BC;
+}
+
+.wrapperMini h2{
+  color : #363636;
+}
+
+/* -------------------------- main content : intro box section ---------------------------*/
+
+.unseuleSection{
+  padding-left : 100px;
+  padding-right : 100px;
+  display:flex;
+  flex-flow : row; 
+  justify-content: space-between;
+  /* height : 600px; */
+  align-content: center;
+  color :white;
+}
+
+.unseuleSection h1{
+  height: 0%;
+}
+
+.unseuleSection img{
+  margin: 10% 0%;
+  max-width : 40%;
+  height : auto;
+}
+
+#firstBox{
+  background-color: #FFC550;
+}
+
+#secondBox{
+  background-color: #FF5D63;
+}
+
+#thirdBox{
+  background-color: #3867BC;
+}
+
+.mainSectionBox{
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+.mainSectionBoxR{
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  width: 50%;
+}
+
+.mainSectionBox ul{
+  list-style-type:none;
+  padding-inline-start : 0;
+}
