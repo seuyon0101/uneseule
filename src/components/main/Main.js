@@ -12,7 +12,6 @@ function Main(){
         text1 ="반짝 빛나는 아이들을 위한 uneseule"
         text2 ="1:1 클래스"
         b_text ="신청하기"
-        imgsrc ="img/illustration/main_banner_img.png"
       />
       <ClassIndex text = "1월 온라인 언어/예술 클래스"/>
       <MiniSection 

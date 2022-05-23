@@ -7,12 +7,12 @@ import Navbar from "./components/nav/Navbar";
 function App(){
   return (
    <div className='App'>
-     <div className='innerApp'>
         <Chatimg/>
         <Navbar />
+     <div className='innerApp'>
         <Outlet/>
-        <Footer />
      </div>
+        <Footer />
     </div>
   );
 }

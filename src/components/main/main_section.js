@@ -7,7 +7,7 @@ function MainSection(props){
             <h2>{props.text1}</h2>
             <h1>{props.text2}</h1>
             <button className={styles.mainButton}>{props.b_text}</button> 
-            <img src={props.imgsrc} className={styles.mainBannerImg} alt="banner-img"/>
+            <div className ={styles.mainBannerImg}></div>
         </section>       
     );
 }

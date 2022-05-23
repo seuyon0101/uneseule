@@ -8,7 +8,7 @@ import kakaotalk from "./kakaotalk.svg";
 function Footer(){
 
     const busRegNum = "business registration no. 601-09-09919";
-    const address = "876 Hwanghak-dong, Jung-gu, Seoul";
+    const address = "서울특별시 성동구 동호로 100 금호두산아파트110동 1201호 ";
     const founder = "Hyejin Lee";
     const contactEmail = "lake@uneseule.kr";
     const copyright = "Copyright ⓒ 2022 윤슬ㅣune seule All rights reserved.";

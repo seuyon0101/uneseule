@@ -12,10 +12,12 @@
 }
 
 /* ---------------------------main section ---------------------------*/
-
+/* ** */
 .mainBannerImg {
-  
-  width :100vw;
+  background-image : url("main_banner_img.png");
+  background-size : cover;
+  width:100vw;
+  height: 70vh;
 }
 
 .mainFirst h1{
@@ -30,6 +32,7 @@
 
 }
 
+/* ** */
 .mainFirst{
   display: flex;
   flex-direction:column;
@@ -50,11 +53,13 @@
 
 /* -------------------------- main content : class index main section ---------------------------*/
 
+/* ** */
 .indexSection{
   color:#3867BC;
   text-align: left;
   padding-bottom : 150px ;
   padding-top : 150px;
+  margin : 0 auto;
 }
 
 .indexSection h1{
@@ -64,6 +69,8 @@
 .miniContainer{
   height:250px;
   background-color: #3867BC;
+  width: 300px;
+
 }
 
 .miniContainer img{
@@ -90,6 +97,7 @@
   flex-flow: row wrap;
   align-content: center;
   justify-content: space-around;
+
 }
 
 .miniBox{
@@ -143,15 +151,18 @@ color : #363636;
 /* -------------------------- main content : intro box section ---------------------------*/
 
 .unseuleSection{
-  padding-left : 100px;
-  padding-right : 100px;
   display:flex;
-  flex-flow : row; 
-  justify-content: space-between;
+  flex-flow : row;
+  justify-content: center; 
+  align-items: center;
   /* height : 600px; */
-  align-content: center;
   color :white;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 
 .unseuleSection h1{
   height: 0%;
@@ -180,7 +191,12 @@ color : #363636;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 50%;
+  width :50%;
+}
+
+.mainSectionWrap{
+  width: 1200px;
+  display:flex;
 }
 
 .mainSectionBoxR{
@@ -189,7 +205,7 @@ color : #363636;
   justify-content: center;
   align-items: flex-end;
   align-content: center;
-  width: 50%;
+  width :50%;
 }
 
 .mainSectionBox ul{

@@ -2,14 +2,24 @@
     display:flex;
     text-decoration: none;
     flex-flow : row;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .innerwrapper{
     border : 1px solid #bbb;
     text-decoration: none;
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding : 15px 0px
 }
 
+.containerwrapp {
+    display: flex;
+    flex-direction: row;
+}
 
 .memberImg{
     border-radius: 50%;
@@ -19,3 +29,14 @@
     background-size : cover;
 }
 
+.rightContainer{
+    width: 200px;
+}
+
+.container{
+margin : 0 10px;
+}
+
+.uName{
+    font-size : 26px;
+}

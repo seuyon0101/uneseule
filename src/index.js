@@ -22,7 +22,7 @@ ReactDOM.render(
         <Route path ='confidentials' element={<Main />} />
       </Route>
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
 </React.StrictMode>,
   document.getElementById('root')
 );

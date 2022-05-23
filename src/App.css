@@ -1,10 +1,16 @@
 
 /* -------------------------- contact page ---------------------------*/
 
-
-.contact-section{
-  padding: 50px 100px;
+.innerApp{
+  height: 100%;
+  margin : 0 auto;
+  width : 1267px;
+ 
 }
+
+/* .contact-section{
+  padding: 50px 100px;
+} */
 
 .text-input{
   width : 100%;
@@ -44,11 +50,4 @@
 
 }
 
-.contact-img-section{
-  display: flex;
-  justify-content: flex-end;
-}
 
-#light-img{
-  height : 700px;
-}

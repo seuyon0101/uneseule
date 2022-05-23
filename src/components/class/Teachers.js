@@ -7,7 +7,7 @@ export default function Teachers(props){
     const teachersList = data.teachers.map(x => {
         return(
         <Link to = "/" className={styles.innerwrapper} >
-            <div >
+            <div className= {styles.containerwrapp }>
                 <div className={`${styles.container} ${styles.leftContainer}`}>
                     <div className={styles.memberImg} style ={
                         {
@@ -17,10 +17,10 @@ export default function Teachers(props){
                 </div>
                 </div>
                 <div className={`${styles.container} ${styles.rightContainer}`}>
-                    <h3>{x.uName}</h3>
+                    <h3 className={styles.uName}>{x.uName}</h3>
                     <span>{x.skill}</span>
                     <p className={styles.numHighlight}>{x.classNum}<span>수업 진행</span></p>
-                    <p className={styles.umHighlight}>{x.regisClass}<span>신청 가능 수업</span></p>
+                    <p className={styles.numHighlight}>{x.regisClass}<span>신청 가능 수업</span></p>
                 </div>
             </div>
         </Link>
